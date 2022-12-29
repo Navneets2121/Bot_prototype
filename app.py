@@ -328,7 +328,7 @@ def get_bot_response():
     userText = request.args.get('msg')
     result=bot(userText)
     reply=' '.join([str(item) for item in result])
-    return (reply)
+    return jsonify(reply)
 
 if __name__ == '__main__':
     # import socket
