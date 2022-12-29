@@ -1,0 +1,113 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+     "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+     "context": [""]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time","Quit"],
+     "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+     "context": [""]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me", "Nice work"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure","Always Ready to help" ],
+     "context": [""]
+    },
+    {"tag": "noanswer",
+     "patterns": [],
+     "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+     "context": [""]
+    },
+    {"tag": "options",
+     "patterns": ["How you could help me?", "What you can do?", "How you can be helpful?"],
+     "responses": ["Hey Ask me something like weather,news,or want to laugh ask me joke,etc","I can perform various tricks ask me one", "Want some information ask me"],
+     "context": [""]
+    },
+    {"tag": "jokes",
+     "patterns": ["joke", "make me laugh", "Feeling sad","make my day","tell me something funny" ],
+     "responses": ["Here is the joke : ","Lets cheer you,here is joke: ","I can't stop my laugh: " ],
+     "context": [""]
+    },
+    {"tag": "weather",
+     "patterns": ["weather", "temperature", "City's weathe condition","Will today rain?" ],
+     "responses": [ "The current weather is : " , "Weather condition is : "],
+     "context": [""]
+    },
+    {"tag": "Name",
+     "patterns": ["Tell me about yourself", "Your", "can i call you" ],
+     "responses": ["Call me Chatty","My name is Chatty"],
+     "context": [""]
+    },
+    {"tag": "news",
+     "patterns": ["news", "Update me ", "going around the world" ],
+     "responses": ["the news is : "],
+     "context": [""]
+    },
+    {"tag": "google",
+     "patterns": ["Google about", "search about", "What is the", "tell me", "Name: ", "Who is"],
+     "responses": ["The result found on google is : ", "Here what I found: ", "Your search query: "],
+     "context": [""]
+    },
+    {"tag": "password",
+     "patterns": ["Create new password","Generate password"],
+     "responses": ["The new password is : "],
+     "context": [""]
+    },
+    {"tag": "wikipedia",
+     "patterns": ["Search wikipedia"],
+     "responses": ["The search result is : ","Here waht I found : "],
+     "context": [""]
+    },
+    {"tag": "time",
+     "patterns": ["What is the time" ,"time", "minutes","hours"],
+     "responses": ["The current time is : "],
+     "context": [""]
+    },
+    {"tag": "email",
+     "patterns": ["Make email", "mail" , "Send email"],
+     "responses": ["Email information required"],
+     "context": [""]
+    },
+    {"tag": "date",
+     "patterns": ["date", "todays date" , "Year is today", "Month is today"],
+     "responses": ["The current date is :"],
+     "context": [""]
+    },
+    {"tag": "day",
+     "patterns": ["Todays day", "What is day" , "Is it weekday"],
+     "responses": ["The current day is :"],
+     "context": [""]
+    },
+    {"tag": "message",
+     "patterns": [" Message him ", "send a message" , "Send text to"],
+     "responses": ["Message sent : "],
+     "context": [""]
+    },
+    {"tag": "flip",
+     "patterns": ["flip", "flip the coin" , "result flip"],
+     "responses": ["The result of flip is: "],
+     "context": [""]
+    },
+    {"tag": "games",
+     "patterns": ["tell me a game", "play with me" , "Let's play"],
+     "responses": ["Lets start a game"],
+     "context": [""]
+    },
+    {"tag": "Songs",
+     "patterns": ["play songs", "Time to listem" , "Lets vibe","Make cheerful", "Dance"],
+     "responses": ["Playing songs : "],
+     "context": [""]
+    },
+    {"tag": "roll",
+     "patterns": ["Roll a dice", "rolled dice result" , "result"],
+     "responses": ["The result of rolled dice is:"],
+     "context": [""]
+    },
+    {"tag": "cpu",
+     "patterns": ["cpu", "cpu stats"],
+     "responses": ["The cpu stat is : "],
+     "context": [""]
+    }
+]
+}
