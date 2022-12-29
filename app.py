@@ -321,7 +321,7 @@ app= Flask(__name__)
 
 @app.route('/')
 def home():
-    return render_template("index.html")
+    return ("!! Welcome !!")
 
 @app.route('/get', methods=['GET'])
 def get_bot_response():
